@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecopulsión S.A.S. | Soluciones Ambientales en Medellín</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --verde: #2d5a27; --blanco: #ffffff; --gris: #f4f4f4; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: #333; }
+        header { background: var(--verde); color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 20px; background: #222; padding: 10px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80'); 
+                height: 400px; background-size: cover; color: white; display: flex; flex-direction: column; 
+                justify-content: center; align-items: center; text-align: center; }
+        .container { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--gris); padding: 20px; border-radius: 8px; border-left: 5px solid var(--verde); }
+        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ECOPULSIÓN S.A.S.</h1>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <h2>Cuidando el planeta, impulsando el futuro</h2>
+    <p>Transformamos el problema de la basura en oportunidades sostenibles en Antioquia.</p>
+</section>
+
+<div class="container">
+    <section id="nosotros">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Ecopulsión nace en Medellín como un proyecto ambiental con un propósito social y económico. Buscamos convertirnos en un referente en el reciclaje de plásticos, ofreciendo soluciones responsables para empresas y comunidades.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>Misión</h3>
+                <p>Recuperar materiales reciclables y generar conciencia ambiental, contribuyendo a la protección de ecosistemas.</p>
+            </div>
+            <div class="card">
+                <h3>Visión</h3>
+                <p>Ser líderes en la reducción de residuos plásticos, fomentando la economía circular a nivel nacional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" style="margin-top: 40px;">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Recolección y clasificación de plásticos.</li>
+            <li>Transformación de materiales para economía circular.</li>
+            <li>Asesoría ambiental para instituciones y empresas.</li>
+        </ul>
+    </section>
+</div>
+
+<footer id="contacto">
+    <p>&copy; 2026 Ecopulsión S.A.S. - Medellín, Colombia</p>
+    <p><i class="fas fa-envelope"></i> Contacto a través de nuestro sitio oficial</p>
+</footer>
+
+</body>
+</html>
